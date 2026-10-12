@@ -2,6 +2,7 @@
 /.next/
 /.netlify/
 /out/
+/public/cloudflare-images/
 /.codex-preview/
 /qa/
 /tmp/
