@@ -10,6 +10,7 @@ type SpiralViewProps = {
   active: boolean;
   paused: boolean;
   onProjectOpen: (projectIndex: number) => void;
+  onUnavailable: () => void;
 };
 
 type SceneController = {
@@ -93,7 +94,7 @@ function wrap(value: number, length: number) {
   return ((value % length) + length) % length;
 }
 
-export default function SpiralView({ active, paused, onProjectOpen }: SpiralViewProps) {
+export default function SpiralView({ active, paused, onProjectOpen, onUnavailable }: SpiralViewProps) {
   const stageRef = useRef<HTMLElement>(null);
   const activeRef = useRef(active);
   const pausedRef = useRef(paused);
@@ -117,7 +118,13 @@ export default function SpiralView({ active, paused, onProjectOpen }: SpiralView
     );
     camera.position.z = 8;
 
-    const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
+    let renderer: THREE.WebGLRenderer;
+    try {
+      renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
+    } catch {
+      onUnavailable();
+      return;
+    }
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
     renderer.setSize(window.innerWidth, window.innerHeight);
     renderer.setClearColor(0x000000, 0);
@@ -395,7 +402,7 @@ export default function SpiralView({ active, paused, onProjectOpen }: SpiralView
       renderer.domElement.remove();
       controllerRef.current = null;
     };
-  }, [onProjectOpen]);
+  }, [onProjectOpen, onUnavailable]);
 
   useEffect(() => {
     controllerRef.current?.setActive(active);

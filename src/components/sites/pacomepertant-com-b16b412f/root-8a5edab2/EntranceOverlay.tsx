@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState, type CSSProperties } from "react";
 import { flushSync } from "react-dom";
 import type { AnimationItem } from "lottie-web";
+import { getImageProps } from "next/image";
 
 import { setAmbientEnabled } from "./SiteChrome";
 import styles from "./Chrome.module.css";
@@ -11,10 +12,17 @@ type EntranceOverlayProps = {
   onDismiss: (soundEnabled: boolean) => void;
 };
 
-const avatarSource = "/sites/pacomepertant-com-b16b412f/shared/intro-avatar.png";
+const artworkSource = getImageProps({
+  src: "/intro-graphics-original.png", alt: "", width: 440, height: 276, quality: 100,
+}).props.src;
+const avatarSource = getImageProps({
+  src: "/sites/pacomepertant-com-b16b412f/shared/intro-avatar.png",
+  alt: "", width: 110, height: 108, quality: 100,
+}).props.src;
 
 export default function EntranceOverlay({ onDismiss }: EntranceOverlayProps) {
   const animationContainer = useRef<HTMLDivElement>(null);
+  const exitTimer = useRef<number | undefined>(undefined);
   const [animationLoaded, setAnimationLoaded] = useState(false);
   const [animationComplete, setAnimationComplete] = useState(false);
   const [showArtwork, setShowArtwork] = useState(false);
@@ -29,10 +37,29 @@ export default function EntranceOverlay({ onDismiss }: EntranceOverlayProps) {
     let artworkTimer: number | undefined;
     let identityTimer: number | undefined;
     let artworkCleanupTimer: number | undefined;
+    let loadingTimer: number | undefined;
+
+    const clearAnimationTimers = () => {
+      window.clearTimeout(artworkTimer);
+      window.clearTimeout(identityTimer);
+      window.clearTimeout(artworkCleanupTimer);
+      window.clearTimeout(loadingTimer);
+    };
+    const finishSafely = () => {
+      if (cancelled) return;
+      cancelled = true;
+      clearAnimationTimers();
+      animation?.destroy();
+      setAnimationLoaded(true);
+      setShowArtwork(false);
+      setShowIdentity(true);
+      setAnimationComplete(true);
+    };
+    loadingTimer = window.setTimeout(finishSafely, 12000);
 
     const startAnimation = async () => {
       const artworkImage = new Image();
-      artworkImage.src = "/intro-graphics-original.png";
+      artworkImage.src = artworkSource;
       const avatarImage = new Image();
       avatarImage.src = avatarSource;
       const [lottieModule, response] = await Promise.all([
@@ -43,6 +70,7 @@ export default function EntranceOverlay({ onDismiss }: EntranceOverlayProps) {
       ]);
 
       if (cancelled || !animationContainer.current) return;
+      if (!response.ok) throw new Error("Entrance animation could not load");
 
       const animationData = await response.json();
       const loaderData = animationData as {
@@ -88,9 +116,13 @@ export default function EntranceOverlay({ onDismiss }: EntranceOverlayProps) {
       animation.addEventListener("DOMLoaded", () => {
         if (!cancelled) setAnimationLoaded(true);
       });
+      animation.addEventListener("error", finishSafely);
+      animation.addEventListener("data_failed", finishSafely);
 
       if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        window.clearTimeout(loadingTimer);
         animation.goToAndStop(animation.totalFrames - 1, true);
+        setAnimationLoaded(true);
         setShowIdentity(true);
         setAnimationComplete(true);
         return;
@@ -132,34 +164,28 @@ export default function EntranceOverlay({ onDismiss }: EntranceOverlayProps) {
             }, 520);
           }, 1900);
         } else {
+          window.clearTimeout(loadingTimer);
           setAnimationComplete(true);
         }
       });
       animation.playSegments([0, 20], true);
     };
 
-    void startAnimation();
+    void startAnimation().catch(finishSafely);
 
     return () => {
       cancelled = true;
-      window.clearTimeout(artworkTimer);
-      window.clearTimeout(identityTimer);
-      window.clearTimeout(artworkCleanupTimer);
+      clearAnimationTimers();
+      window.clearTimeout(exitTimer.current);
       animation?.destroy();
     };
   }, []);
 
-  const enter = async (withSound: boolean) => {
+  const enter = (withSound: boolean) => {
     if (leaving) return;
-
-    if (withSound) {
-      await setAmbientEnabled(true);
-    } else {
-      await setAmbientEnabled(false);
-    }
-
+    void setAmbientEnabled(withSound);
     setLeaving(true);
-    window.setTimeout(() => onDismiss(withSound), 500);
+    exitTimer.current = window.setTimeout(() => onDismiss(withSound), 500);
   };
 
   return (
@@ -196,7 +222,7 @@ export default function EntranceOverlay({ onDismiss }: EntranceOverlayProps) {
           <div className={styles.entranceArtComposition}>
             <img
               className={styles.entranceArtShapes}
-              src="/intro-graphics-original.png"
+              src={artworkSource}
               alt=""
             />
             <span className={styles.entranceProgressCover} />

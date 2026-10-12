@@ -1,6 +1,6 @@
 "use client";
 
-import { useLayoutEffect, useState } from "react";
+import { useCallback, useLayoutEffect, useState } from "react";
 import { projects } from "@/data/projects";
 
 import BackgroundGrid from "./BackgroundGrid";
@@ -19,9 +19,14 @@ type PortfolioWindow = Window & {
 export default function HomePortfolio() {
   const [entered, setEntered] = useState(false);
   const [view, setView] = useState<PortfolioView>("spiral");
+  const [spiralAvailable, setSpiralAvailable] = useState(true);
   const [menuOpen, setMenuOpen] = useState(false);
   const [soundEnabled, setSoundEnabled] = useState(false);
   const [previewProjectIndex, setPreviewProjectIndex] = useState<number | null>(null);
+  const handleSpiralUnavailable = useCallback(() => {
+    setSpiralAvailable(false);
+    setView("list");
+  }, []);
 
   useLayoutEffect(() => {
     const hasEntered = Boolean((window as PortfolioWindow).__portfolioEntranceCompleted);
@@ -35,16 +40,19 @@ export default function HomePortfolio() {
     <main className={styles.home}>
       <BackgroundGrid />
 
-      <SpiralView
-        active={view === "spiral"}
-        paused={previewProjectIndex !== null}
-        onProjectOpen={setPreviewProjectIndex}
-      />
+      {entered && spiralAvailable && (
+        <SpiralView
+          active={view === "spiral"}
+          paused={previewProjectIndex !== null}
+          onProjectOpen={setPreviewProjectIndex}
+          onUnavailable={handleSpiralUnavailable}
+        />
+      )}
       <ListView active={view === "list"} />
 
       <SiteChrome
         currentView={view}
-        onViewChange={setView}
+        onViewChange={(nextView) => setView(spiralAvailable ? nextView : "list")}
         menuOpen={menuOpen}
         onMenuOpen={() => setMenuOpen(true)}
         soundEnabled={soundEnabled}
@@ -54,6 +62,7 @@ export default function HomePortfolio() {
       <MenuDrawer open={menuOpen} onClose={() => setMenuOpen(false)} />
 
       <ProjectPreview
+        preload={entered}
         project={previewProjectIndex === null ? null : projects[previewProjectIndex]}
         onClose={() => setPreviewProjectIndex(null)}
       />
@@ -65,7 +74,7 @@ export default function HomePortfolio() {
             controls
             playsInline
             poster="/sites/pacomepertant-com-b16b412f/shared/reel-thumbnail.png"
-            preload="metadata"
+            preload={entered ? "metadata" : "none"}
           >
             <source
               src="https://stream.mux.com/ycc6bXk6hOWxGnyb6F3wvUxPPLiDML00P9OPkYMjuSN8/high.mp4"
