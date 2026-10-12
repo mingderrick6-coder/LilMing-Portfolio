@@ -1,0 +1,1438 @@
+[
+  {
+    "slug": "poster-design",
+    "title": "Poster Design",
+    "index": 1,
+    "layout": "grid",
+    "cover": "/collections/poster-design/cover.webp",
+    "sections": [
+      {
+        "id": "group-05",
+        "title": "纯甄海报",
+        "images": [
+          {
+            "id": "ef928c90db58",
+            "title": "纯甄H5加载页",
+            "src": "/collections/poster-design/ef928c90db58.webp",
+            "width": 2400,
+            "height": 5194,
+            "thumbnail": "/collections/poster-design/ef928c90db58-thumb.webp",
+            "previewWidth": 739,
+            "previewHeight": 1600
+          },
+          {
+            "id": "361f5db15117",
+            "title": "纯甄H5封面",
+            "src": "/collections/poster-design/361f5db15117.webp",
+            "width": 2400,
+            "height": 5194,
+            "thumbnail": "/collections/poster-design/361f5db15117-thumb.webp",
+            "previewWidth": 739,
+            "previewHeight": 1600
+          },
+          {
+            "id": "3784537dbec7",
+            "title": "DIMOO产品向头条开屏",
+            "src": "/collections/poster-design/3784537dbec7.webp",
+            "width": 1080,
+            "height": 2340,
+            "thumbnail": "/collections/poster-design/3784537dbec7-thumb.webp",
+            "previewWidth": 738,
+            "previewHeight": 1600
+          },
+          {
+            "id": "b42396d18f48",
+            "title": "【爱心】纯甄xDIMOO开屏",
+            "src": "/collections/poster-design/b42396d18f48.webp",
+            "width": 750,
+            "height": 1324,
+            "thumbnail": "/collections/poster-design/b42396d18f48-thumb.webp",
+            "previewWidth": 750,
+            "previewHeight": 1324
+          },
+          {
+            "id": "49d0196bd51c",
+            "title": "【雪屋】纯甄xDIMOO开屏",
+            "src": "/collections/poster-design/49d0196bd51c.webp",
+            "width": 750,
+            "height": 1324,
+            "thumbnail": "/collections/poster-design/49d0196bd51c-thumb.webp",
+            "previewWidth": 750,
+            "previewHeight": 1324
+          },
+          {
+            "id": "1489c91c9541",
+            "title": "纯甄CNY首页",
+            "src": "/collections/poster-design/1489c91c9541.webp",
+            "width": 1512,
+            "height": 2784,
+            "thumbnail": "/collections/poster-design/1489c91c9541-thumb.webp",
+            "previewWidth": 869,
+            "previewHeight": 1600
+          },
+          {
+            "id": "901d35fb7af0",
+            "title": "馋酸奶1.0",
+            "src": "/collections/poster-design/901d35fb7af0.webp",
+            "width": 1080,
+            "height": 1790,
+            "thumbnail": "/collections/poster-design/901d35fb7af0-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 1591
+          },
+          {
+            "id": "f496c77b2da1",
+            "title": "馋酸奶2.0",
+            "src": "/collections/poster-design/f496c77b2da1.webp",
+            "width": 1080,
+            "height": 1790,
+            "thumbnail": "/collections/poster-design/f496c77b2da1-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 1591
+          },
+          {
+            "id": "6ff63abcc516",
+            "title": "馋酸奶3.0",
+            "src": "/collections/poster-design/6ff63abcc516.webp",
+            "width": 1080,
+            "height": 1790,
+            "thumbnail": "/collections/poster-design/6ff63abcc516-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 1591
+          },
+          {
+            "id": "e2c65268d0cd",
+            "title": "馋酸奶插画海报1",
+            "src": "/collections/poster-design/e2c65268d0cd.webp",
+            "width": 1080,
+            "height": 1920,
+            "thumbnail": "/collections/poster-design/e2c65268d0cd-thumb.webp",
+            "previewWidth": 900,
+            "previewHeight": 1600
+          },
+          {
+            "id": "b7b923a31a6e",
+            "title": "馋酸奶插画海报2",
+            "src": "/collections/poster-design/b7b923a31a6e.webp",
+            "width": 1080,
+            "height": 1920,
+            "thumbnail": "/collections/poster-design/b7b923a31a6e-thumb.webp",
+            "previewWidth": 900,
+            "previewHeight": 1600
+          },
+          {
+            "id": "76b2848fc1ff",
+            "title": "馋酸奶插画海报3",
+            "src": "/collections/poster-design/76b2848fc1ff.webp",
+            "width": 1080,
+            "height": 1920,
+            "thumbnail": "/collections/poster-design/76b2848fc1ff-thumb.webp",
+            "previewWidth": 900,
+            "previewHeight": 1600
+          },
+          {
+            "id": "6ac2c7a1fa5f",
+            "title": "馋酸奶插画海报4",
+            "src": "/collections/poster-design/6ac2c7a1fa5f.webp",
+            "width": 1080,
+            "height": 1920,
+            "thumbnail": "/collections/poster-design/6ac2c7a1fa5f-thumb.webp",
+            "previewWidth": 900,
+            "previewHeight": 1600
+          },
+          {
+            "id": "e1eabcc59e6c",
+            "title": "杨紫1",
+            "src": "/collections/poster-design/e1eabcc59e6c.webp",
+            "width": 1125,
+            "height": 2086,
+            "thumbnail": "/collections/poster-design/e1eabcc59e6c-thumb.webp",
+            "previewWidth": 863,
+            "previewHeight": 1600
+          },
+          {
+            "id": "7d43c6437615",
+            "title": "杨紫2",
+            "src": "/collections/poster-design/7d43c6437615.webp",
+            "width": 1125,
+            "height": 2086,
+            "thumbnail": "/collections/poster-design/7d43c6437615-thumb.webp",
+            "previewWidth": 863,
+            "previewHeight": 1600
+          },
+          {
+            "id": "47e202b29f58",
+            "title": "INTO1周边海报",
+            "src": "/collections/poster-design/47e202b29f58.webp",
+            "width": 2400,
+            "height": 4241,
+            "thumbnail": "/collections/poster-design/47e202b29f58-thumb.webp",
+            "previewWidth": 905,
+            "previewHeight": 1600
+          }
+        ]
+      },
+      {
+        "id": "group-03",
+        "title": "合众大厦节日海报",
+        "images": [
+          {
+            "id": "6725a443c8a9",
+            "title": "中秋节",
+            "src": "/collections/poster-design/6725a443c8a9.webp",
+            "width": 1080,
+            "height": 1920,
+            "thumbnail": "/collections/poster-design/6725a443c8a9-thumb.webp",
+            "previewWidth": 900,
+            "previewHeight": 1600
+          },
+          {
+            "id": "4183e1b2e933",
+            "title": "儿童节",
+            "src": "/collections/poster-design/4183e1b2e933.webp",
+            "width": 1280,
+            "height": 2275,
+            "thumbnail": "/collections/poster-design/4183e1b2e933-thumb.webp",
+            "previewWidth": 900,
+            "previewHeight": 1600
+          },
+          {
+            "id": "eb940b3c78f2",
+            "title": "元旦",
+            "src": "/collections/poster-design/eb940b3c78f2.webp",
+            "width": 2126,
+            "height": 3780,
+            "thumbnail": "/collections/poster-design/eb940b3c78f2-thumb.webp",
+            "previewWidth": 900,
+            "previewHeight": 1600
+          },
+          {
+            "id": "284552ed0cbc",
+            "title": "国庆节",
+            "src": "/collections/poster-design/284552ed0cbc.webp",
+            "width": 1080,
+            "height": 1920,
+            "thumbnail": "/collections/poster-design/284552ed0cbc-thumb.webp",
+            "previewWidth": 900,
+            "previewHeight": 1600
+          },
+          {
+            "id": "ba75ec444fe8",
+            "title": "妇女节1.0",
+            "src": "/collections/poster-design/ba75ec444fe8.webp",
+            "width": 1080,
+            "height": 1920,
+            "thumbnail": "/collections/poster-design/ba75ec444fe8-thumb.webp",
+            "previewWidth": 900,
+            "previewHeight": 1600
+          },
+          {
+            "id": "8171b91aefb7",
+            "title": "妇女节2.0",
+            "src": "/collections/poster-design/8171b91aefb7.webp",
+            "width": 1280,
+            "height": 2275,
+            "thumbnail": "/collections/poster-design/8171b91aefb7-thumb.webp",
+            "previewWidth": 900,
+            "previewHeight": 1600
+          },
+          {
+            "id": "e2290495f69b",
+            "title": "端午1.0",
+            "src": "/collections/poster-design/e2290495f69b.webp",
+            "width": 2084,
+            "height": 3704,
+            "thumbnail": "/collections/poster-design/e2290495f69b-thumb.webp",
+            "previewWidth": 900,
+            "previewHeight": 1600
+          },
+          {
+            "id": "0fddcd478a76",
+            "title": "端午2.0",
+            "src": "/collections/poster-design/0fddcd478a76.gif",
+            "width": 720,
+            "height": 1280,
+            "thumbnail": "/collections/poster-design/0fddcd478a76-thumb.webp",
+            "previewWidth": 720,
+            "previewHeight": 1280,
+            "animated": true
+          }
+        ]
+      },
+      {
+        "id": "group-01",
+        "title": "OATLY",
+        "images": [
+          {
+            "id": "60b6b628a5b4",
+            "title": "OATLY周年庆",
+            "src": "/collections/poster-design/60b6b628a5b4.webp",
+            "width": 750,
+            "height": 1457,
+            "thumbnail": "/collections/poster-design/60b6b628a5b4-thumb.webp",
+            "previewWidth": 750,
+            "previewHeight": 1457
+          },
+          {
+            "id": "b957cf2a1626",
+            "title": "OATLY直播海报1",
+            "src": "/collections/poster-design/b957cf2a1626.webp",
+            "width": 1080,
+            "height": 2045,
+            "thumbnail": "/collections/poster-design/b957cf2a1626-thumb.webp",
+            "previewWidth": 845,
+            "previewHeight": 1600
+          },
+          {
+            "id": "e3aa66d1e9f7",
+            "title": "OATLY直播海报2",
+            "src": "/collections/poster-design/e3aa66d1e9f7.webp",
+            "width": 1080,
+            "height": 2045,
+            "thumbnail": "/collections/poster-design/e3aa66d1e9f7-thumb.webp",
+            "previewWidth": 845,
+            "previewHeight": 1600
+          }
+        ]
+      },
+      {
+        "id": "group-04",
+        "title": "太太乐",
+        "images": [
+          {
+            "id": "a3e1fc72a34b",
+            "title": "佛跳墙-竖版",
+            "src": "/collections/poster-design/a3e1fc72a34b.webp",
+            "width": 750,
+            "height": 1334,
+            "thumbnail": "/collections/poster-design/a3e1fc72a34b-thumb.webp",
+            "previewWidth": 750,
+            "previewHeight": 1334
+          },
+          {
+            "id": "89960bb4c219",
+            "title": "双十一KV4_",
+            "src": "/collections/poster-design/89960bb4c219.webp",
+            "width": 1080,
+            "height": 1920,
+            "thumbnail": "/collections/poster-design/89960bb4c219-thumb.webp",
+            "previewWidth": 900,
+            "previewHeight": 1600
+          }
+        ]
+      },
+      {
+        "id": "creative-posters",
+        "title": "创意海报",
+        "images": [
+          {
+            "id": "dfa022044f0f",
+            "title": "PEACH",
+            "src": "/collections/poster-design/dfa022044f0f.webp",
+            "width": 2400,
+            "height": 3257,
+            "thumbnail": "/collections/poster-design/dfa022044f0f-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 1303
+          },
+          {
+            "id": "068214a4ff53",
+            "title": "SMLIE 1.0",
+            "src": "/collections/poster-design/068214a4ff53.webp",
+            "width": 2400,
+            "height": 3257,
+            "thumbnail": "/collections/poster-design/068214a4ff53-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 1303
+          },
+          {
+            "id": "158985f9d60a",
+            "title": "SMLIE 2.0",
+            "src": "/collections/poster-design/158985f9d60a.webp",
+            "width": 2400,
+            "height": 3257,
+            "thumbnail": "/collections/poster-design/158985f9d60a-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 1303
+          },
+          {
+            "id": "c620b5b90b23",
+            "title": "复古渐变",
+            "src": "/collections/poster-design/c620b5b90b23.webp",
+            "width": 2400,
+            "height": 3200,
+            "thumbnail": "/collections/poster-design/c620b5b90b23-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 1280
+          },
+          {
+            "id": "7972f1bbeede",
+            "title": "夸张失实",
+            "src": "/collections/poster-design/7972f1bbeede.webp",
+            "width": 2400,
+            "height": 3200,
+            "thumbnail": "/collections/poster-design/7972f1bbeede-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 1280
+          },
+          {
+            "id": "e9cb41c8c77c",
+            "title": "德里克故障",
+            "src": "/collections/poster-design/e9cb41c8c77c.webp",
+            "width": 1876,
+            "height": 2500,
+            "thumbnail": "/collections/poster-design/e9cb41c8c77c-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 1279
+          },
+          {
+            "id": "2854d57f0d0d",
+            "title": "抽象星球",
+            "src": "/collections/poster-design/2854d57f0d0d.webp",
+            "width": 2400,
+            "height": 3257,
+            "thumbnail": "/collections/poster-design/2854d57f0d0d-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 1303
+          },
+          {
+            "id": "c7f2eeb182c7",
+            "title": "球星实验室",
+            "src": "/collections/poster-design/c7f2eeb182c7.webp",
+            "width": 2400,
+            "height": 3257,
+            "thumbnail": "/collections/poster-design/c7f2eeb182c7-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 1303
+          },
+          {
+            "id": "2a83418ae52c",
+            "title": "风城玫瑰",
+            "src": "/collections/poster-design/2a83418ae52c.webp",
+            "width": 2400,
+            "height": 3200,
+            "thumbnail": "/collections/poster-design/2a83418ae52c-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 1280
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "e-commerce-kv-design",
+    "title": "E-commerce KV Design",
+    "index": 2,
+    "layout": "grid",
+    "cover": "/collections/e-commerce-kv-design/cover.webp",
+    "sections": [
+      {
+        "id": "group-01",
+        "title": "",
+        "images": [
+          {
+            "id": "8a34a8405d6a",
+            "title": "CB杯KV",
+            "src": "/collections/e-commerce-kv-design/8a34a8405d6a.webp",
+            "width": 2400,
+            "height": 1396,
+            "thumbnail": "/collections/e-commerce-kv-design/8a34a8405d6a-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 558
+          },
+          {
+            "id": "1e2892c1949a",
+            "title": "DIMOO工厂KV",
+            "src": "/collections/e-commerce-kv-design/1e2892c1949a.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/e-commerce-kv-design/1e2892c1949a-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "910ce9ff2cb1",
+            "title": "DIMOO跳跳糖KV",
+            "src": "/collections/e-commerce-kv-design/910ce9ff2cb1.webp",
+            "width": 2400,
+            "height": 1343,
+            "thumbnail": "/collections/e-commerce-kv-design/910ce9ff2cb1-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 537
+          },
+          {
+            "id": "4c6c0a25d6d1",
+            "title": "into1见面会主KV",
+            "src": "/collections/e-commerce-kv-design/4c6c0a25d6d1.webp",
+            "width": 2000,
+            "height": 1125,
+            "thumbnail": "/collections/e-commerce-kv-design/4c6c0a25d6d1-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "abaf775ca8c3",
+            "title": "产酸奶张艺兴主KV",
+            "src": "/collections/e-commerce-kv-design/abaf775ca8c3.webp",
+            "width": 1692,
+            "height": 984,
+            "thumbnail": "/collections/e-commerce-kv-design/abaf775ca8c3-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 558
+          },
+          {
+            "id": "96cc4d2afeb3",
+            "title": "杨枝甘露笑脸包KV",
+            "src": "/collections/e-commerce-kv-design/96cc4d2afeb3.webp",
+            "width": 1920,
+            "height": 1080,
+            "thumbnail": "/collections/e-commerce-kv-design/96cc4d2afeb3-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "550f01849680",
+            "title": "纯甄x泡泡玛特圣诞KV",
+            "src": "/collections/e-commerce-kv-design/550f01849680.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/e-commerce-kv-design/550f01849680-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "51ae35177d53",
+            "title": "馋酸奶人物表情海报",
+            "src": "/collections/e-commerce-kv-design/51ae35177d53.webp",
+            "width": 1920,
+            "height": 1080,
+            "thumbnail": "/collections/e-commerce-kv-design/51ae35177d53-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "39c42376ecc7",
+            "title": "馋酸奶新品KV",
+            "src": "/collections/e-commerce-kv-design/39c42376ecc7.webp",
+            "width": 1920,
+            "height": 1080,
+            "thumbnail": "/collections/e-commerce-kv-design/39c42376ecc7-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "010c6376a69f",
+            "title": "太太乐科学知识竞赛",
+            "src": "/collections/e-commerce-kv-design/010c6376a69f.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/e-commerce-kv-design/010c6376a69f-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "29fb42d166e9",
+            "title": "太太乐鲜闯为快",
+            "src": "/collections/e-commerce-kv-design/29fb42d166e9.webp",
+            "width": 1920,
+            "height": 1080,
+            "thumbnail": "/collections/e-commerce-kv-design/29fb42d166e9-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "product-detail-page",
+    "title": "Product Detail Page",
+    "index": 3,
+    "layout": "reading",
+    "cover": "/collections/product-detail-page/cover.webp",
+    "sections": [
+      {
+        "id": "group-01",
+        "title": "",
+        "images": [
+          {
+            "id": "accf102caaa9",
+            "title": "纯甄产酸奶POPMART定制版-电商详情页",
+            "src": "/collections/product-detail-page/accf102caaa9.jpg",
+            "width": 1089,
+            "height": 23368,
+            "thumbnail": "/collections/product-detail-page/accf102caaa9-thumb.webp",
+            "previewWidth": 75,
+            "previewHeight": 1600,
+            "phonePreview": "/collections/product-detail-page/accf102caaa9-phone.webp",
+            "segments": [
+              {
+                "src": "/collections/product-detail-page/accf102caaa9-segment-01.webp",
+                "width": 420,
+                "height": 1802
+              },
+              {
+                "src": "/collections/product-detail-page/accf102caaa9-segment-02.webp",
+                "width": 420,
+                "height": 1803
+              },
+              {
+                "src": "/collections/product-detail-page/accf102caaa9-segment-03.webp",
+                "width": 420,
+                "height": 1802
+              },
+              {
+                "src": "/collections/product-detail-page/accf102caaa9-segment-04.webp",
+                "width": 420,
+                "height": 1803
+              },
+              {
+                "src": "/collections/product-detail-page/accf102caaa9-segment-05.webp",
+                "width": 420,
+                "height": 1803
+              }
+            ]
+          },
+          {
+            "id": "faadf230f2b3",
+            "title": "纯甄PET白桃石榴POPMART圣诞定制版-电商详情页",
+            "src": "/collections/product-detail-page/faadf230f2b3.webp",
+            "width": 750,
+            "height": 8010,
+            "thumbnail": "/collections/product-detail-page/faadf230f2b3-thumb.webp",
+            "previewWidth": 150,
+            "previewHeight": 1600,
+            "phonePreview": "/collections/product-detail-page/faadf230f2b3-phone.webp",
+            "segments": [
+              {
+                "src": "/collections/product-detail-page/faadf230f2b3-segment-01.webp",
+                "width": 420,
+                "height": 1495
+              },
+              {
+                "src": "/collections/product-detail-page/faadf230f2b3-segment-02.webp",
+                "width": 420,
+                "height": 1495
+              },
+              {
+                "src": "/collections/product-detail-page/faadf230f2b3-segment-03.webp",
+                "width": 420,
+                "height": 1495
+              }
+            ]
+          },
+          {
+            "id": "79bfa1e304a4",
+            "title": "CB杯电商详情页",
+            "src": "/collections/product-detail-page/79bfa1e304a4.jpg",
+            "width": 1080,
+            "height": 19832,
+            "thumbnail": "/collections/product-detail-page/79bfa1e304a4-thumb.webp",
+            "previewWidth": 87,
+            "previewHeight": 1600,
+            "phonePreview": "/collections/product-detail-page/79bfa1e304a4-phone.webp",
+            "segments": [
+              {
+                "src": "/collections/product-detail-page/79bfa1e304a4-segment-01.webp",
+                "width": 420,
+                "height": 1928
+              },
+              {
+                "src": "/collections/product-detail-page/79bfa1e304a4-segment-02.webp",
+                "width": 420,
+                "height": 1928
+              },
+              {
+                "src": "/collections/product-detail-page/79bfa1e304a4-segment-03.webp",
+                "width": 420,
+                "height": 1928
+              },
+              {
+                "src": "/collections/product-detail-page/79bfa1e304a4-segment-04.webp",
+                "width": 420,
+                "height": 1928
+              }
+            ]
+          },
+          {
+            "id": "6d47fb4c5783",
+            "title": "纯甄PET黄桃藜麦-电商详情页",
+            "src": "/collections/product-detail-page/6d47fb4c5783.png",
+            "width": 1087,
+            "height": 18766,
+            "thumbnail": "/collections/product-detail-page/6d47fb4c5783-thumb.webp",
+            "previewWidth": 93,
+            "previewHeight": 1600,
+            "phonePreview": "/collections/product-detail-page/6d47fb4c5783-phone.webp",
+            "segments": [
+              {
+                "src": "/collections/product-detail-page/6d47fb4c5783-segment-01.webp",
+                "width": 420,
+                "height": 1813
+              },
+              {
+                "src": "/collections/product-detail-page/6d47fb4c5783-segment-02.webp",
+                "width": 420,
+                "height": 1813
+              },
+              {
+                "src": "/collections/product-detail-page/6d47fb4c5783-segment-03.webp",
+                "width": 420,
+                "height": 1813
+              },
+              {
+                "src": "/collections/product-detail-page/6d47fb4c5783-segment-04.webp",
+                "width": 420,
+                "height": 1813
+              }
+            ]
+          },
+          {
+            "id": "8417e64df865",
+            "title": "轻食酪乳电商详情页",
+            "src": "/collections/product-detail-page/8417e64df865.webp",
+            "width": 1087,
+            "height": 15368,
+            "thumbnail": "/collections/product-detail-page/8417e64df865-thumb.webp",
+            "previewWidth": 113,
+            "previewHeight": 1600,
+            "phonePreview": "/collections/product-detail-page/8417e64df865-phone.webp",
+            "segments": [
+              {
+                "src": "/collections/product-detail-page/8417e64df865-segment-01.webp",
+                "width": 420,
+                "height": 1979
+              },
+              {
+                "src": "/collections/product-detail-page/8417e64df865-segment-02.webp",
+                "width": 420,
+                "height": 1979
+              },
+              {
+                "src": "/collections/product-detail-page/8417e64df865-segment-03.webp",
+                "width": 420,
+                "height": 1979
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "article-design",
+    "title": "Article Design",
+    "index": 4,
+    "layout": "reading",
+    "cover": "/collections/article-design/cover.webp",
+    "sections": [
+      {
+        "id": "group-01",
+        "title": "",
+        "images": [
+          {
+            "id": "c756f8df10e1",
+            "title": "作品 01",
+            "src": "/collections/article-design/c756f8df10e1.png",
+            "width": 1080,
+            "height": 19924,
+            "thumbnail": "/collections/article-design/c756f8df10e1-thumb.webp",
+            "previewWidth": 87,
+            "previewHeight": 1600,
+            "phonePreview": "/collections/article-design/c756f8df10e1-phone.webp",
+            "segments": [
+              {
+                "src": "/collections/article-design/c756f8df10e1-segment-01.webp",
+                "width": 420,
+                "height": 1937
+              },
+              {
+                "src": "/collections/article-design/c756f8df10e1-segment-02.webp",
+                "width": 420,
+                "height": 1937
+              },
+              {
+                "src": "/collections/article-design/c756f8df10e1-segment-03.webp",
+                "width": 420,
+                "height": 1937
+              },
+              {
+                "src": "/collections/article-design/c756f8df10e1-segment-04.webp",
+                "width": 420,
+                "height": 1937
+              }
+            ]
+          },
+          {
+            "id": "5af525dec52f",
+            "title": "作品 02",
+            "src": "/collections/article-design/5af525dec52f.jpg",
+            "width": 1128,
+            "height": 26643,
+            "thumbnail": "/collections/article-design/5af525dec52f-thumb.webp",
+            "previewWidth": 68,
+            "previewHeight": 1600,
+            "phonePreview": "/collections/article-design/5af525dec52f-phone.webp",
+            "segments": [
+              {
+                "src": "/collections/article-design/5af525dec52f-segment-01.webp",
+                "width": 420,
+                "height": 1984
+              },
+              {
+                "src": "/collections/article-design/5af525dec52f-segment-02.webp",
+                "width": 420,
+                "height": 1984
+              },
+              {
+                "src": "/collections/article-design/5af525dec52f-segment-03.webp",
+                "width": 420,
+                "height": 1984
+              },
+              {
+                "src": "/collections/article-design/5af525dec52f-segment-04.webp",
+                "width": 420,
+                "height": 1984
+              },
+              {
+                "src": "/collections/article-design/5af525dec52f-segment-05.webp",
+                "width": 420,
+                "height": 1984
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "e-commerce-homepage",
+    "title": "E-commerce Homepage",
+    "index": 5,
+    "layout": "reading",
+    "cover": "/collections/e-commerce-homepage/cover.webp",
+    "sections": [
+      {
+        "id": "group-01",
+        "title": "",
+        "images": [
+          {
+            "id": "9511a74c79bd",
+            "title": "跃升小程序UI",
+            "src": "/collections/e-commerce-homepage/9511a74c79bd.webp",
+            "width": 750,
+            "height": 7681,
+            "thumbnail": "/collections/e-commerce-homepage/9511a74c79bd-thumb.webp",
+            "previewWidth": 156,
+            "previewHeight": 1600,
+            "phonePreview": "/collections/e-commerce-homepage/9511a74c79bd-phone.webp",
+            "segments": [
+              {
+                "src": "/collections/e-commerce-homepage/9511a74c79bd-segment-01.webp",
+                "width": 420,
+                "height": 1434
+              },
+              {
+                "src": "/collections/e-commerce-homepage/9511a74c79bd-segment-02.webp",
+                "width": 420,
+                "height": 1434
+              },
+              {
+                "src": "/collections/e-commerce-homepage/9511a74c79bd-segment-03.webp",
+                "width": 420,
+                "height": 1434
+              }
+            ]
+          },
+          {
+            "id": "cd187b62f77e",
+            "title": "纯甄品牌馆小程序UI",
+            "src": "/collections/e-commerce-homepage/cd187b62f77e.webp",
+            "width": 1125,
+            "height": 8742,
+            "thumbnail": "/collections/e-commerce-homepage/cd187b62f77e-thumb.webp",
+            "previewWidth": 206,
+            "previewHeight": 1600,
+            "phonePreview": "/collections/e-commerce-homepage/cd187b62f77e-phone.webp",
+            "segments": [
+              {
+                "src": "/collections/e-commerce-homepage/cd187b62f77e-segment-01.webp",
+                "width": 420,
+                "height": 1088
+              },
+              {
+                "src": "/collections/e-commerce-homepage/cd187b62f77e-segment-02.webp",
+                "width": 420,
+                "height": 1088
+              },
+              {
+                "src": "/collections/e-commerce-homepage/cd187b62f77e-segment-03.webp",
+                "width": 420,
+                "height": 1088
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "event-visual-design",
+    "title": "Event Visual Design",
+    "index": 6,
+    "layout": "sequence",
+    "cover": "/collections/event-visual-design/cover.webp",
+    "sections": [
+      {
+        "id": "group-01",
+        "title": "月满中秋，合满圆满",
+        "images": [
+          {
+            "id": "5ba974704606",
+            "title": "第 01 页",
+            "src": "/collections/event-visual-design/5ba974704606.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/event-visual-design/5ba974704606-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "8cffc1009e10",
+            "title": "第 02 页",
+            "src": "/collections/event-visual-design/8cffc1009e10.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/event-visual-design/8cffc1009e10-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "b8f3ed2cbf23",
+            "title": "第 03 页",
+            "src": "/collections/event-visual-design/b8f3ed2cbf23.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/event-visual-design/b8f3ed2cbf23-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "ca709adb2a4e",
+            "title": "第 04 页",
+            "src": "/collections/event-visual-design/ca709adb2a4e.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/event-visual-design/ca709adb2a4e-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "9d7ddc9ad8f5",
+            "title": "第 05 页",
+            "src": "/collections/event-visual-design/9d7ddc9ad8f5.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/event-visual-design/9d7ddc9ad8f5-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "02b9df11d47e",
+            "title": "第 06 页",
+            "src": "/collections/event-visual-design/02b9df11d47e.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/event-visual-design/02b9df11d47e-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          }
+        ]
+      },
+      {
+        "id": "group-02",
+        "title": "听风入夏，共话端阳",
+        "images": [
+          {
+            "id": "8d406152c3b6",
+            "title": "第 01 页",
+            "src": "/collections/event-visual-design/8d406152c3b6.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/event-visual-design/8d406152c3b6-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "64c0dc24f33c",
+            "title": "第 02 页",
+            "src": "/collections/event-visual-design/64c0dc24f33c.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/event-visual-design/64c0dc24f33c-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "94312efc6a59",
+            "title": "第 03 页",
+            "src": "/collections/event-visual-design/94312efc6a59.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/event-visual-design/94312efc6a59-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "a2e375e678e1",
+            "title": "第 04 页",
+            "src": "/collections/event-visual-design/a2e375e678e1.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/event-visual-design/a2e375e678e1-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "20efd1bb5974",
+            "title": "第 05 页",
+            "src": "/collections/event-visual-design/20efd1bb5974.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/event-visual-design/20efd1bb5974-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "392a599836e8",
+            "title": "第 06 页",
+            "src": "/collections/event-visual-design/392a599836e8.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/event-visual-design/392a599836e8-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          }
+        ]
+      },
+      {
+        "id": "group-03",
+        "title": "夏日消暑计划",
+        "images": [
+          {
+            "id": "9db1dd156deb",
+            "title": "第 01 页",
+            "src": "/collections/event-visual-design/9db1dd156deb.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/event-visual-design/9db1dd156deb-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "66d3a50c50c5",
+            "title": "第 02 页",
+            "src": "/collections/event-visual-design/66d3a50c50c5.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/event-visual-design/66d3a50c50c5-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "b9fdb1614e4b",
+            "title": "第 03 页",
+            "src": "/collections/event-visual-design/b9fdb1614e4b.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/event-visual-design/b9fdb1614e4b-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "fe9490c2f41f",
+            "title": "第 04 页",
+            "src": "/collections/event-visual-design/fe9490c2f41f.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/event-visual-design/fe9490c2f41f-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "1e687cf7040c",
+            "title": "第 05 页",
+            "src": "/collections/event-visual-design/1e687cf7040c.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/event-visual-design/1e687cf7040c-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "2d5c988a0a30",
+            "title": "第 06 页",
+            "src": "/collections/event-visual-design/2d5c988a0a30.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/event-visual-design/2d5c988a0a30-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          }
+        ]
+      },
+      {
+        "id": "group-04",
+        "title": "春日流转，万物循环",
+        "images": [
+          {
+            "id": "e0f2e28f28f1",
+            "title": "第 01 页",
+            "src": "/collections/event-visual-design/e0f2e28f28f1.webp",
+            "width": 2400,
+            "height": 1351,
+            "thumbnail": "/collections/event-visual-design/e0f2e28f28f1-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "21a9117a9e69",
+            "title": "第 02 页",
+            "src": "/collections/event-visual-design/21a9117a9e69.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/event-visual-design/21a9117a9e69-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "0a0ddb57daee",
+            "title": "第 03 页",
+            "src": "/collections/event-visual-design/0a0ddb57daee.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/event-visual-design/0a0ddb57daee-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "eeb49e03fc7f",
+            "title": "第 04 页",
+            "src": "/collections/event-visual-design/eeb49e03fc7f.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/event-visual-design/eeb49e03fc7f-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "a4d033db4dcc",
+            "title": "第 05 页",
+            "src": "/collections/event-visual-design/a4d033db4dcc.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/event-visual-design/a4d033db4dcc-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "f3b7a35c7033",
+            "title": "第 06 页",
+            "src": "/collections/event-visual-design/f3b7a35c7033.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/event-visual-design/f3b7a35c7033-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "brand-projects",
+    "title": "Brand Projects",
+    "index": 7,
+    "layout": "sequence",
+    "cover": "/collections/brand-projects/cover.webp",
+    "sections": [
+      {
+        "id": "group-01",
+        "title": "",
+        "images": [
+          {
+            "id": "2c76a749d0b5",
+            "title": "第 01 页",
+            "src": "/collections/brand-projects/2c76a749d0b5.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/brand-projects/2c76a749d0b5-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "f0a6ab13a1b7",
+            "title": "第 02 页",
+            "src": "/collections/brand-projects/f0a6ab13a1b7.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/brand-projects/f0a6ab13a1b7-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "0c5a66d1c684",
+            "title": "第 03 页",
+            "src": "/collections/brand-projects/0c5a66d1c684.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/brand-projects/0c5a66d1c684-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "2fff8663b4a6",
+            "title": "第 04 页",
+            "src": "/collections/brand-projects/2fff8663b4a6.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/brand-projects/2fff8663b4a6-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "e42790460d69",
+            "title": "第 05 页",
+            "src": "/collections/brand-projects/e42790460d69.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/brand-projects/e42790460d69-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "b10125a07b2a",
+            "title": "第 06 页",
+            "src": "/collections/brand-projects/b10125a07b2a.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/brand-projects/b10125a07b2a-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "f2ed8b125769",
+            "title": "第 07 页",
+            "src": "/collections/brand-projects/f2ed8b125769.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/brand-projects/f2ed8b125769-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "f486099d6286",
+            "title": "第 08 页",
+            "src": "/collections/brand-projects/f486099d6286.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/brand-projects/f486099d6286-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "4e3729ce9458",
+            "title": "第 09 页",
+            "src": "/collections/brand-projects/4e3729ce9458.webp",
+            "width": 2400,
+            "height": 2738,
+            "thumbnail": "/collections/brand-projects/4e3729ce9458-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 1095
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "illustration",
+    "title": "Illustration",
+    "index": 8,
+    "layout": "grid",
+    "cover": "/collections/illustration/cover.webp",
+    "sections": [
+      {
+        "id": "group-01",
+        "title": "My friends",
+        "images": [
+          {
+            "id": "b3e99f2a6473",
+            "title": "作品 01",
+            "src": "/collections/illustration/b3e99f2a6473.webp",
+            "width": 2400,
+            "height": 2400,
+            "thumbnail": "/collections/illustration/b3e99f2a6473-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 960
+          },
+          {
+            "id": "58322f983104",
+            "title": "作品 02",
+            "src": "/collections/illustration/58322f983104.webp",
+            "width": 2400,
+            "height": 2400,
+            "thumbnail": "/collections/illustration/58322f983104-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 960
+          },
+          {
+            "id": "774b8d3478db",
+            "title": "作品 03",
+            "src": "/collections/illustration/774b8d3478db.webp",
+            "width": 2400,
+            "height": 2400,
+            "thumbnail": "/collections/illustration/774b8d3478db-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 960
+          },
+          {
+            "id": "30ecc905bddb",
+            "title": "作品 04",
+            "src": "/collections/illustration/30ecc905bddb.webp",
+            "width": 2400,
+            "height": 2400,
+            "thumbnail": "/collections/illustration/30ecc905bddb-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 960
+          },
+          {
+            "id": "dd451550b09e",
+            "title": "作品 05",
+            "src": "/collections/illustration/dd451550b09e.webp",
+            "width": 2400,
+            "height": 2400,
+            "thumbnail": "/collections/illustration/dd451550b09e-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 960
+          },
+          {
+            "id": "260cb6764370",
+            "title": "作品 06",
+            "src": "/collections/illustration/260cb6764370.webp",
+            "width": 2400,
+            "height": 2400,
+            "thumbnail": "/collections/illustration/260cb6764370-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 960
+          },
+          {
+            "id": "3c82f75cd914",
+            "title": "作品 07",
+            "src": "/collections/illustration/3c82f75cd914.webp",
+            "width": 2400,
+            "height": 2400,
+            "thumbnail": "/collections/illustration/3c82f75cd914-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 960
+          },
+          {
+            "id": "1a2b8263822b",
+            "title": "作品 08",
+            "src": "/collections/illustration/1a2b8263822b.webp",
+            "width": 2400,
+            "height": 2400,
+            "thumbnail": "/collections/illustration/1a2b8263822b-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 960
+          },
+          {
+            "id": "ff8b32f5b1ec",
+            "title": "作品 09",
+            "src": "/collections/illustration/ff8b32f5b1ec.webp",
+            "width": 2400,
+            "height": 2388,
+            "thumbnail": "/collections/illustration/ff8b32f5b1ec-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 955
+          },
+          {
+            "id": "00bc8f44e438",
+            "title": "作品 10",
+            "src": "/collections/illustration/00bc8f44e438.webp",
+            "width": 2400,
+            "height": 2400,
+            "thumbnail": "/collections/illustration/00bc8f44e438-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 960
+          }
+        ]
+      },
+      {
+        "id": "group-02",
+        "title": "扁平插画",
+        "images": [
+          {
+            "id": "097291ba9557",
+            "title": "作品 01",
+            "src": "/collections/illustration/097291ba9557.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/illustration/097291ba9557-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "6847329e57c4",
+            "title": "作品 02",
+            "src": "/collections/illustration/6847329e57c4.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/illustration/6847329e57c4-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "941be8a37141",
+            "title": "作品 03",
+            "src": "/collections/illustration/941be8a37141.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/illustration/941be8a37141-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "24fdbc3e7a03",
+            "title": "作品 04",
+            "src": "/collections/illustration/24fdbc3e7a03.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/illustration/24fdbc3e7a03-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "4cde6fd55cb4",
+            "title": "作品 05",
+            "src": "/collections/illustration/4cde6fd55cb4.webp",
+            "width": 2400,
+            "height": 1350,
+            "thumbnail": "/collections/illustration/4cde6fd55cb4-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 540
+          },
+          {
+            "id": "9c4c78592a7a",
+            "title": "作品 06",
+            "src": "/collections/illustration/9c4c78592a7a.webp",
+            "width": 2400,
+            "height": 1352,
+            "thumbnail": "/collections/illustration/9c4c78592a7a-thumb.webp",
+            "previewWidth": 960,
+            "previewHeight": 541
+          }
+        ]
+      }
+    ]
+  }
+]

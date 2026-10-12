@@ -1,0 +1,100 @@
+.slider {
+  position: relative;
+  width: min(100%, 120.8889vh);
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 0;
+  user-select: none;
+  touch-action: pan-y;
+}
+
+.image,
+.stage,
+.canvas {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+}
+
+.image { object-fit: contain; }
+.stage { cursor: grab; outline: none; }
+.stage:active { cursor: grabbing; }
+.stage:focus-visible { outline: 2px solid #fff; outline-offset: -2px; }
+.canvas { opacity: 0; }
+.ready .canvas { opacity: 1; }
+
+.controls {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.button {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(255 255 255 / 22%);
+  border-radius: 50%;
+  background: rgb(12 12 14 / 40%);
+  color: #fff;
+  backdrop-filter: blur(8px);
+  cursor: pointer;
+  pointer-events: auto;
+  transition: transform 250ms cubic-bezier(.16, 1, .3, 1), background 250ms ease;
+}
+
+.button:hover { transform: scale(1.06); background: rgb(24 24 28 / 60%); }
+.button:active { transform: scale(.96); }
+.button:disabled { cursor: default; opacity: .5; }
+.button:focus-visible,
+.dot:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
+
+.indicators {
+  position: absolute;
+  right: 0;
+  bottom: 18px;
+  left: 0;
+  display: flex;
+  height: 24px;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: rgb(255 255 255 / 45%);
+  cursor: pointer;
+  pointer-events: auto;
+  transition: width 495ms cubic-bezier(.16, 1, .3, 1), background 495ms ease;
+}
+
+.selected { width: 22px; background: #fff; }
+.status { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+
+@media (max-width: 420px) {
+  .controls { padding: 0 10px; }
+  .button { width: 34px; height: 34px; }
+  .indicators { bottom: 8px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .button,
+  .dot { transition: none; }
+}

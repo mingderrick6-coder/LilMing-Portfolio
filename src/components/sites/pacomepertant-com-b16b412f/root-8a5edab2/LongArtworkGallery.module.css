@@ -1,0 +1,68 @@
+.gallery { display: grid; gap: 72px; }
+.work { min-width: 0; scroll-margin-top: 115px; }
+.work + .work { padding-top: 34px; border-top: 1px solid #2b2e35; }
+.workHeading { display: flex; align-items: baseline; justify-content: space-between; gap: 24px; margin-bottom: 28px; }
+.workHeading h2 { display: flex; align-items: baseline; gap: 15px; margin: 0; color: #e5e7ed; font-size: 20px; font-weight: 400; }
+.workHeading h2 > span { flex-shrink: 0; color: #5379ff; font-size: 11px; }
+.hint { flex-shrink: 0; color: #9299a8; font-size: 12px; }
+.hint > span { margin-left: 8px; color: #5379ff; }
+.presentation { display: flex; height: 480px; align-items: center; gap: clamp(28px, 4.5vw, 65px); }
+.phone { position: relative; display: block; flex: 0 0 auto; width: 224px; padding: 6px; border: 1px solid #686b74; border-radius: 35px; background: linear-gradient(115deg, #6d7078, #1b1d23 20%, #34363e 70%, #777a83); box-shadow: 0 18px 40px rgb(0 0 0 / 35%), inset 0 0 0 2px #191b20; cursor: zoom-in; transition: transform 350ms cubic-bezier(.22, 1, .36, 1), box-shadow 250ms ease; }
+.phone::before, .phone::after { position: absolute; width: 2px; border-radius: 1px; background: #70737d; content: ""; }
+.phone::before { top: 90px; left: -3px; height: 30px; }
+.phone::after { top: 112px; right: -3px; height: 34px; }
+.phoneScreen { display: block; aspect-ratio: 9 / 19.5; overflow: hidden; border-radius: 28px; background: #111317; }
+.phoneScreen img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+.phone:hover { transform: translateY(-3px); box-shadow: 0 20px 45px rgb(0 0 0 / 45%), 0 0 0 1px #5379ff; }
+.segments { display: flex; flex: 1; height: 480px; min-width: 0; align-items: start; justify-content: space-between; gap: clamp(12px, 2vw, 24px); }
+.segment { display: flex; flex: 1; height: 100%; min-width: 0; align-items: center; flex-direction: column; cursor: zoom-in; transition: transform 350ms cubic-bezier(.22, 1, .36, 1); }
+.segment img { display: block; width: auto; height: calc(100% - 26px); max-width: 100%; object-fit: contain; object-position: center top; }
+.segmentLabel { margin-top: 12px; color: #747d8f; font-size: 10px; letter-spacing: .1em; line-height: 1; transition: color 200ms ease; }
+.segment:hover { transform: translateY(-3px); }
+.segment:hover .segmentLabel { color: #8a9eff; }
+.phone:focus-visible, .segment:focus-visible { outline: 2px solid #5379ff; outline-offset: 6px; }
+
+.overlay { position: fixed; z-index: 1000; inset: 0; overflow-x: hidden; overflow-y: auto; overscroll-behavior: contain; padding: 84px var(--margin) 64px; visibility: hidden; background: #000; color: #fafafa; opacity: 0; pointer-events: none; scrollbar-width: thin; scrollbar-color: #383d48 #000; transition: opacity 200ms ease, visibility 0s linear 200ms; }
+.overlayVisible { visibility: visible; opacity: 1; pointer-events: auto; transition: opacity 200ms ease, visibility 0s; }
+.figure { width: min(70vw, 900px); max-width: 100%; margin: 0 auto; opacity: 0; transform: translateY(12px) scale(.96); transform-origin: center top; transition: opacity 200ms ease, transform 200ms cubic-bezier(.22, 1, .36, 1); }
+.overlayVisible .figure { opacity: 1; transform: translateY(0) scale(1); transition: opacity 200ms ease, transform 500ms cubic-bezier(.22, 1, .36, 1); }
+.figure figcaption { margin-bottom: 14px; color: #c4c9d3; font-family: "Indivisible Variable", "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 12px; letter-spacing: 0; line-height: 1.5; }
+.figure img { display: block; width: 100%; height: auto; }
+.closeButton { position: fixed; z-index: 1; top: var(--margin); right: var(--margin); width: 32px; height: 32px; border-radius: 50%; background: #fafafa; color: #0a0a0a; cursor: pointer; opacity: 0; transform: scale(.9); transition: opacity 200ms ease, transform 200ms cubic-bezier(.22, 1, .36, 1), background-color 200ms ease, color 200ms ease; }
+.overlayVisible .closeButton { opacity: 1; transform: scale(1); }
+.closeButton span::before, .closeButton span::after { position: absolute; top: 50%; left: 50%; width: 13px; height: 1.5px; border-radius: 999px; background: currentColor; content: ""; }
+.closeButton span::before { transform: translate(-50%, -50%) rotate(45deg); }
+.closeButton span::after { transform: translate(-50%, -50%) rotate(-45deg); }
+.closeButton:hover { background: #5379ff; color: #fff; }
+.closeButton:focus-visible { outline: 2px solid #5379ff; outline-offset: 4px; }
+
+@media (max-width: 1000px) {
+  .presentation, .segments { height: 420px; }
+  .presentation { gap: 30px; }
+  .phone { width: 192px; border-radius: 31px; }
+  .phoneScreen { border-radius: 24px; }
+  .segments { gap: 12px; }
+}
+
+@media (max-width: 700px) {
+  .gallery { gap: 48px; }
+  .work { scroll-margin-top: 95px; }
+  .work + .work { padding-top: 26px; }
+  .workHeading { align-items: start; flex-direction: column; gap: 10px; margin-bottom: 24px; }
+  .workHeading h2 { gap: 12px; font-size: 17px; }
+  .hint { font-size: 11px; }
+  .presentation { height: auto; align-items: center; flex-direction: column; gap: 25px; }
+  .phone { width: 148px; padding: 5px; border-radius: 25px; }
+  .phoneScreen { border-radius: 19px; }
+  .phone::before { top: 65px; height: 24px; }
+  .phone::after { top: 78px; height: 28px; }
+  .segments { flex: none; width: 100%; height: 290px; gap: 9px; }
+  .segmentLabel { margin-top: 10px; font-size: 8px; }
+  .figure { width: 100%; }
+  .overlay { padding-top: 75px; padding-bottom: 35px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .phone, .segment, .segmentLabel, .overlay, .overlayVisible, .figure, .overlayVisible .figure, .closeButton { transition: none; }
+  .phone:hover, .segment:hover { transform: none; }
+}

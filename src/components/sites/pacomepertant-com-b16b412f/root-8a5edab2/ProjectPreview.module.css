@@ -1,0 +1,144 @@
+.preload {
+  position: fixed;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.preload img {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  padding: var(--margin);
+  place-items: center;
+  visibility: hidden;
+  background: #000;
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    opacity 200ms ease,
+    visibility 0s linear 200ms;
+}
+
+.overlayVisible {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+  transition:
+    opacity 200ms ease,
+    visibility 0s;
+}
+
+.figure {
+  display: flex;
+  width: 54vw;
+  max-width: calc(100vw - var(--margin) * 2);
+  margin: 0;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transform: scale(.96);
+  transform-origin: center;
+  transition:
+    opacity 200ms ease,
+    transform 200ms cubic-bezier(.22, 1, .36, 1);
+}
+
+.overlayVisible .figure {
+  opacity: 1;
+  transform: scale(1);
+  transition:
+    opacity 200ms ease,
+    transform 500ms cubic-bezier(.22, 1, .36, 1);
+}
+
+.projectImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 68vh;
+  object-fit: contain;
+}
+
+.figure figcaption {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -.03em;
+  color: #fafafa;
+}
+
+.closeButton {
+  position: absolute;
+  top: var(--margin);
+  right: var(--margin);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #fafafa;
+  color: #0a0a0a;
+  cursor: pointer;
+  opacity: 0;
+  transform: scale(.9);
+  transition:
+    opacity 200ms ease,
+    transform 200ms cubic-bezier(.22, 1, .36, 1);
+}
+
+.overlayVisible .closeButton {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.closeButton span::before,
+.closeButton span::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 13px;
+  height: 1.5px;
+  border-radius: 999px;
+  background: currentColor;
+  content: "";
+}
+
+.closeButton span::before { transform: translate(-50%, -50%) rotate(45deg); }
+.closeButton span::after { transform: translate(-50%, -50%) rotate(-45deg); }
+
+.closeButton:focus-visible {
+  outline: 2px solid #fafafa;
+  outline-offset: 4px;
+}
+
+@media (max-width: 700px) {
+  .figure {
+    width: calc(100vw - var(--margin) * 2);
+  }
+
+  .projectImage {
+    width: 100%;
+    height: auto;
+    max-height: 68vh;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .overlay,
+  .overlayVisible,
+  .figure,
+  .overlayVisible .figure,
+  .closeButton,
+  .overlayVisible .closeButton {
+    transition: none;
+  }
+}

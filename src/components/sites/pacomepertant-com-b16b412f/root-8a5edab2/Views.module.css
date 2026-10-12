@@ -1,0 +1,205 @@
+.spiralView {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.spiralActive {
+  pointer-events: auto;
+}
+
+.spiralInactive {
+  pointer-events: none;
+}
+
+.spiralCanvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+
+.spiralInfo {
+  position: fixed;
+  right: 0;
+  bottom: 60px;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(18px) scale(.96);
+  transition: opacity 350ms cubic-bezier(.22, 1, .36, 1), transform 350ms cubic-bezier(.22, 1, .36, 1);
+}
+
+.spiralInfoContent {
+  display: flex;
+  max-width: calc(var(--grid-column) * 4 + var(--gutter) * 3);
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 6px 16px 6px 6px;
+  border-radius: 14px;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+.spiralInfoContent img {
+  width: 48px;
+  height: 48px;
+  flex: 0 0 48px;
+  border-radius: 9px;
+  background: var(--ink);
+  object-fit: cover;
+}
+
+.spiralInfoContent span {
+  overflow: hidden;
+  font-size: 18px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.spiralInfoVisible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.listView {
+  position: fixed;
+  inset: 0;
+  z-index: 2;
+  overflow: auto;
+  text-align: center;
+  scrollbar-width: none;
+}
+
+.listView::-webkit-scrollbar {
+  display: none;
+}
+
+.listActive {
+  pointer-events: auto;
+}
+
+.listInactive {
+  pointer-events: none;
+}
+
+.projectList {
+  display: flex;
+  min-height: 100%;
+  width: calc(100% - var(--margin) * 2);
+  margin: var(--margin);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  padding: calc(20vh - 60px) 24px 15vh;
+}
+
+.projectTitle {
+  display: block;
+  color: inherit;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -0.04em;
+  text-decoration: none;
+  padding-block: 8px;
+  transform-origin: center;
+  will-change: transform, opacity;
+}
+
+.listPreparing .projectTitle {
+  opacity: 0;
+  transform: translateY(-30px) scaleY(0.5);
+  transition: none;
+}
+
+.listShown .projectTitle {
+  opacity: 1;
+  transform: translateY(0) scaleY(1);
+  transition: transform 500ms cubic-bezier(0.22, 1, 0.36, 1)
+      calc(var(--item-index) * 50ms),
+    opacity 500ms ease calc(var(--item-index) * 50ms);
+}
+
+.listLeaving .projectTitle {
+  opacity: 0;
+  transform: translateY(50px) scaleY(0.5);
+  transition: transform 300ms cubic-bezier(0.4, 0, 1, 1)
+      calc(var(--item-index) * 30ms),
+    opacity 300ms ease calc(var(--item-index) * 30ms);
+}
+
+.listShown .projectTitle.dimmedTitle {
+  opacity: 0.4;
+  transition: transform 500ms cubic-bezier(0.22, 1, 0.36, 1), opacity 300ms ease;
+}
+
+.projectTitle:focus-visible {
+  outline: 1px solid currentColor;
+  outline-offset: 4px;
+}
+
+.previewLayer {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.listPreview {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 330px;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #ddd;
+  box-shadow: 0 22px 48px rgb(0 0 0 / 20%);
+  opacity: 0;
+  transform-origin: center;
+  will-change: transform, opacity;
+}
+
+.listPreview img {
+  object-fit: cover;
+}
+
+@media (max-width: 900px) {
+  .projectList {
+    padding-inline: 16px;
+  }
+
+  .projectTitle {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .listPreview {
+    width: 100px;
+  }
+}
+
+@media (hover: none), (pointer: coarse) {
+  .previewLayer,
+  .spiralInfo {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .projectTitle,
+  .spiralInfo {
+    transition-duration: 0.01ms !important;
+    transition-delay: 0ms !important;
+  }
+}
